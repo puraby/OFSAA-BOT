@@ -1,0 +1,16 @@
+# Core API
+fastapi==0.114.2
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+python-dotenv==1.0.1
+python-json-logger==2.0.7
+
+# Oracle (thin mode)
+oracledb==2.2.1
+
+# Tiny ML intent classifier
+scikit-learn==1.5.2
+numpy>=1.26,<3
+
+# LLM wrapper (provider-agnostic)
+litellm>=1.35.0
